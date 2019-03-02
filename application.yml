@@ -19,4 +19,4 @@ logging:
         security: DEBUG
 git:
   config:
-    name: zhangsanfeng
+    name: fanyuepan
