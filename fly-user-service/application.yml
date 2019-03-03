@@ -4,9 +4,6 @@ spring:
     application:
        name: fly-user-service
 eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${fly.eurekaClientServiceUrlDefaultZone}
   instance:
     prefer-ip-address: true
     instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
@@ -17,6 +14,3 @@ logging:
     org:
       springframework:
         security: DEBUG
-git:
-  config:
-    name: fanyuepan
